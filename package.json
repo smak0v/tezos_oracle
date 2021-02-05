@@ -1,0 +1,24 @@
+{
+  "name": "tezos_oracle",
+  "version": "0.0.1",
+  "description": "Simple Oracle contract on Tezos blockchain",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@taquito/taquito": "^7.1.0-beta.0",
+    "truffle": "^5.5.0-tezos.4"
+  },
+  "devDependencies": {
+    "ganache-cli": "6.11.0-tezos.0"
+  },
+  "scripts": {
+    "start-sandbox": "ganache-cli --flavor tezos --seed alice"
+  },
+  "keywords": [
+    "tezos",
+    "ligo",
+    "blockchain",
+    "truffle"
+  ],
+  "author": "Sergey Makov <makov.sergey.it@gmail.com>"
+}
